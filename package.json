@@ -1,0 +1,56 @@
+{
+  "name": "vineetvb.github.io",
+  "title": "Personal Website",
+  "description": "Personal Websaite",
+  "url": "http://vineetvb.github.io",
+  "author": "Vineet ",
+  "copyright": "2017",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vineetvb/vineetvb.github.io.git"
+  },
+  "homepage": "https://github.com/vineetvb/vineetvb.github.io#readme",
+  "main": "index.html",
+  "scripts": {
+    "less": "node ./scripts/less.js",
+    "js": "node ./scripts/bundle.js",
+    "js:dev": "NODE_ENV=development node ./scripts/bundle.js",
+    "favicons": "node ./scripts/favicons.js",
+    "images": "node ./scripts/images.js",
+    "start": "watch 'npm-run-all less js:dev' -- ./src",
+    "build": "npm-run-all less js",
+    "release": "npm-run-all favicons images less js"
+  },
+  "dependencies": {
+    "fontfaceobserver": "^2.0.13",
+    "store-css": "^0.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "chalk": "^2.0.1",
+    "cssnano": "^3.10.0",
+    "del": "^3.0.0",
+    "favicons": "^4.8.6",
+    "jimp": "^0.2.28",
+    "less": "^2.7.2",
+    "mkdirp": "^0.5.1",
+    "npm-run-all": "^4.1.2",
+    "postcss": "^6.0.6",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.56.1",
+    "rollup-plugin-commonjs": "^8.3.0",
+    "rollup-plugin-node-resolve": "^3.0.3",
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-uglify": "^3.0.0",
+    "watch": "^1.0.2"
+  },
+  "browserlist": [
+    "Chrome 49",
+    "ChromeAndroid 49",
+    "Firefox 48",
+    "Edge 12",
+    "ie 10",
+    "Safari 9",
+    "iOS 9"
+  ]
+}
