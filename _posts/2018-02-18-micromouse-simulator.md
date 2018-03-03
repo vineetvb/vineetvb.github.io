@@ -10,7 +10,7 @@ A Micromouse is a maze solving robot that conforms to the rules of design- e.g. 
 
 Back in 2007, I made my first foray into building micromouse robots, and now in 2018, I am reviving that project with the aim of competing in a US contest in 2018. Here is the mouse I made in 2007:
 
-![My mouse 2007](https://raw.githubusercontent.com/vineetvb/vineetvb.github.io/master/images/micromouse3.jpg =250x)
+![My mouse 2007](https://raw.githubusercontent.com/vineetvb/vineetvb.github.io/master/images/micromouse3.jpg)
 
 
 ## Why a simulator ?
