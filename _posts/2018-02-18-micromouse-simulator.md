@@ -8,7 +8,10 @@ resume:
 
 A Micromouse is a maze solving robot that conforms to the rules of design- e.g. those specified by [IEEE here]( http://sites.ieee.org/r1/files/2013/03/2013-Region-1-Micromouse-Competition-Rules.pdf). Micromouse contests are held worldwide where robot enthusiasts build robots that compete to win the prize of the fastest robot to solve the maze.
 
-Back in 2007, I made my first foray into building micromouse robots, and now in 2018, I am reviving that project with the aim of competing in a US contest in 2018.
+Back in 2007, I made my first foray into building micromouse robots, and now in 2018, I am reviving that project with the aim of competing in a US contest in 2018. Here is the mouse I made in 2007:
+
+![My mouse 2007](https://raw.githubusercontent.com/vineetvb/vineetvb.github.io/master/images/micromouse3.jpg)
+
 
 ## Why a simulator ?
 
@@ -24,5 +27,8 @@ The simulator is a work-in-progress and I plan to add more simulation capabiliti
 ## Micromuse simulator
 
 The simulator is under active develpment at github.com:vineetvb/micromouse. As much as possible, I am attempting to keep the Simulation layer as similar as possible to the Hardware Abstraction layer that runs on my actual robot. The code is written to be as simple and high-level as possible without resorting to premature optimization- prioritizing readability and maintanability above all else. I also wanted people to download and be able to run the simulator on their machines as easily as possible, so I have minimized the dependencies needed to run it.
+
+Here is an example run from the simulator:
+![MouseRun](https://raw.githubusercontent.com/vineetvb/micromouse/floodfill/artwork/anim.gif)
 
 
