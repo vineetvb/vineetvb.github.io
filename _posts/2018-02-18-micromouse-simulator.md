@@ -24,7 +24,7 @@ Another problem testing your algorithms on hardware directly is the iteration ti
 
 The simulator is a work-in-progress and I plan to add more simulation capabilities as my hardware matures as well. Currently, the focus is discrete exploration algorithms and as the simulator is somewhat limited beyond that.
 
-## Micromuse simulator
+## Micromouse simulator
 
 The simulator is under active develpment at github.com:vineetvb/micromouse. As much as possible, I am attempting to keep the Simulation layer as similar as possible to the Hardware Abstraction layer that runs on my actual robot. The code is written to be as simple and high-level as possible without resorting to premature optimization- prioritizing readability and maintanability above all else. I also wanted people to download and be able to run the simulator on their machines as easily as possible, so I have minimized the dependencies needed to run it.
 
